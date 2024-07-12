@@ -41,6 +41,35 @@ This project utilizes a CNN to classify images as either Manga or classic comic.
 
 The dataset is divided into training, validation, and test sets, with images evenly distributed between Manga and classic comic categories.
 
+## Directories and Files
+
+- **data/**: Contains the dataset used for training, validation, and testing.
+  - **test/**: Directory containing the test dataset.
+  - **train/**: Directory containing the training dataset.
+  - **validation/**: Directory containing the validation dataset.
+
+- **doku/**: Documentation related to the project.
+  - **Report_ML.pdf**: PDF document detailing the Comic-Manga project.
+  - **ML.pptx**: PowerPoint presentation about the project.
+
+- **grafics/**: Directory containing graphical outputs from the project.
+  - **confusionmatrix.png**: Confusion matrix image generated from the model's performance.
+  - **data.png**: Image showing the dataset distribution.
+  - **gradcam1.png**: GradCAM visualization of the first sample.
+  - **gradcam2.png**: GradCAM visualization of the second sample.
+
+- **.gitattributes**: Git attributes file for managing text file attributes.
+
+- **best_model.pth**: Saved state of the best-performing model during training.
+
+- **checkpoint.pt**: Checkpoint file used to save intermediate training states of the model.
+
+- **main.ipynb**: Jupyter Notebook containing the main code for the project, including data preprocessing, model training, and evaluation.
+
+
+- **requirements.txt**: List of required Python packages and their versions needed to run the project.
+
+
 ## Installation
 
 To run this project, follow these steps:
@@ -53,7 +82,7 @@ To run this project, follow these steps:
 
 2. **Create a virtual environment:**
     ```bash
-    python3 -m venv venv
+    python3.9 -m venv venv
     source venv/bin/activate
     ```
 
