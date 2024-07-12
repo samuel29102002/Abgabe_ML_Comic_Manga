@@ -5,7 +5,31 @@ This project demonstrates the use of a Convolutional Neural Network (CNN) to cla
 
 ## Project Structure
 
+```bash
+Abgabe_ML_Comic_Manga
+│   README.md
+│   requirements.txt
+│   best_model.pth
+│   checkpoint.pt
+│   main.ipynb
+│   .gitattributes
+│
+├───data
+│   ├───train
+│   ├───validation
+│   └───test
+│
+├───doku
+│   ├───Comic-Manga-PR.pdf
+│   └───ML.pptx
+│
+├───graphics
+│   ├───confusionmatrix.png
+│   ├───data.png
+│   ├───gradcam1.png
+│   └───gradcam2.png
 
+```
 
 ## Summary
 
@@ -37,9 +61,6 @@ To run this project, follow these steps:
     ```bash
     pip install -r requirements.txt
     ```
-
-4. **Download the dataset:**
-    - Place your dataset in the `data` directory, organized as shown in the project structure.
 
 
 ## Usage
